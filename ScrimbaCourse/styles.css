@@ -1,0 +1,73 @@
+
+.logo-img { /* A class selector rather than an element selector*/
+    width: 400px;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.button-search {
+    /*The margin controls the proximity to the other elements on the page*/ 
+    margin-top: 30px;
+    background: rgba(128, 128, 128, 0.334);
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /*Border-radius controls how rounded the edges are*/
+    border-radius: 5px;
+    font-size: 14px;
+
+}
+
+.button-lucky {
+/*The margin controls the proxitimity of the class to other elemtns on the page*/
+    margin-top: 30px;
+/*The margin controls the proximity of the class to items OUTSIDE the class*/
+    margin-left: 10px;
+/*The background controls the bakground of the class*/
+    background: rgba(128, 128, 128, 0.334);
+/*The border controls the outline of the class*/
+    border:none;
+/*padding controls the space WITHIN the class*/
+    padding-left: 10px;
+/*padding controls the space WITHIN the class*/ 
+    padding-right: 10px;
+/*padding controls the space WITHIN the class*/
+    padding-top:8px;
+/*padding controls the space WITHIN the class*/
+    padding-bottom: 8px;
+/*border-radius controls roundedness of the edges*/
+    border-radius: 5px;
+    font-size:14px;
+}
+
+
+.main{
+    margin-top: 100px;
+}
+
+.search-input {  
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    padding-right:30px;
+    line-height: 24px;
+    border-radius: 24px;
+    border: 1px solid #dfe1ef;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+
+}
+
+.btn-wrapper{
+    display:flex;
+    justify-content: center;
+}
