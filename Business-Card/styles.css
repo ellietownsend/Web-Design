@@ -1,0 +1,5 @@
+body {
+/*Margin controls the elements proximity to OTHER elements*/
+/*When we do not specify margin top or margin bottom, they apply to all sides*/
+    margin: 20px;
+}
