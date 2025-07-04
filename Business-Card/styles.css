@@ -1,5 +1,42 @@
+/*Utility class: A class for a single CSS property*/
+/*We can add a class attribute to any element in our HTML file, it is an HTML Global Attribute*/
+/*An element can be multiple classes ( adding two CSS classes to a single element), such as <div class = "card italic"> */
 body {
 /*Margin controls the elements proximity to OTHER elements*/
-/*When we do not specify margin top or margin bottom, they apply to all sides*/
     margin: 20px;
+/*Font-family is how we control the font, there is a whole line, because if the server can not find out first choice if will go down the line until it can find one. */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
+
+.headshot-image {
+    width: 150px;
+/*Border-radius: size, color, style*/
+    border: 5px solid;
+}
+
+.card {
+
+/*Padding is applied WITHIN the class*/
+/*When not applies to a specific side, padding is applied to all sides*/
+    padding: 20px;
+/*Display flex helps turn every single element into a column*/
+/*By nature, flexbox, takes every single child in a class/element and turns it into a column*/
+/*We can ensure everything we want to be part of a single column ends up together by wrapping it in a single div*/
+/*By default, flexbox will take up the whole block (the entire width of the screen, to prevent this we can add a specified width*/
+    display: flex;
+/*Jusify-content is used to provide spacing to the new columns that flex box has provided us*/
+    justify-content:space-around;
+/*Adding a specified width so flex box does not take up the entire screen*/
+    width:400px;
+/* The first "auto" gets applied to the top and bottom, the second "auto" gets applied to the left and right*/
+    margin: auto auto;
+/*text-align is used to place the text where we want on our page, it is an inheriteted property*/
+    text-align: center;
+/*Just writing color referes to the text color*/
+    color:antiquewhite;
+/*background-color refers to the background*/
+    background-color: palevioletred;
+    border-bottom: 5px solid antiquewhite;
+}
+
